@@ -1,0 +1,707 @@
+/* Global csss */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+
+/* -------------- Navigation css -------------- */
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+img.navbar-logo {
+    width: 75%;
+}
+
+div#navbarCollapse {
+    display: flex;
+    justify-content: center;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    background: #0000006b;
+    box-shadow: 2px 6px 9px #6060603d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 24px;
+    padding: 15px 25px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255 255 255 / 68%);
+    border-color: rgb(255 255 255 / 37%);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    padding: 0 12px 0 0;
+    color: #ffffff;
+}
+
+
+/* ---------------- Top banner css ---------------- */
+
+.back-img {
+    background-image: url('../images/bnr.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 970px;
+}
+
+.bnr-txt {
+    margin-top: 60%;
+    padding-bottom: 38%;
+}
+
+.bnr-heading {
+    font-size: 100px;
+    font-family: 'Grand Hotel, cursive';
+    color: #FFC200;
+}
+
+.bnr-para {
+    color: white;
+    font-size: 26px;
+    font-family: 'Montserrat';
+}
+
+
+/* ----- Order button css ---- */
+
+.btn-order {
+    background-color: #FFC200;
+    padding: 9px 45px;
+    border-radius: 5px;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-top: 3%;
+}
+
+.btn-order:hover {
+    background-color: #333333;
+    border: 2px solid #FFC200;
+    padding: 9px 45px;
+    border-radius: 5px;
+    color: #FFC200;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-top: 3%;
+    transition: all 1.2s ease;
+}
+
+.best {
+    font-size: 70px;
+    font-family: 'Grand Hotel, cursive';
+    color: #333333;
+    padding-top: 136px;
+}
+
+.best-para {
+    color: #333333;
+    padding-top: 30px;
+    font-size: 24px;
+}
+
+.padding-t {
+    padding-top: 78px;
+}
+
+.sec-title {
+    color: #333333;
+    font-size: 40px;
+    padding-top: 5%;
+    font-family: 'Grand Hotel, cursive';
+}
+
+.img-sec {
+    width: 70%;
+    transition: transform .2s;
+}
+
+.img-sec:hover {
+    transform: scale(1.1);
+}
+
+.sec-back {
+    background-image: url('../images/new.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.oriental-heading {
+    font-size: 80px;
+    font-family: 'Grand Hotel, cursive';
+    color: #FFC200;
+    padding-top: 36px;
+}
+
+.oriental-para {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.maragin-t {
+    padding-top: 15%;
+}
+
+
+/* ------------ Graphic background image css -------------- */
+
+.sec-back-2 {
+    background-image: url('../images/Component.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.stat-heading {
+    font-size: 80px;
+    font-family: 'Grand Hotel, cursive';
+    color: #FFC200;
+    padding-top: 42%;
+}
+
+.pbt {
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.stat-para {
+    font-size: 24px;
+    color: white;
+}
+
+.circle {
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.num {
+    color: #FFC200;
+    font-weight: bold;
+    padding-top: 24%;
+    font-size: 50px;
+}
+
+.circle-txt {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.padding-b {
+    padding-bottom: 38%;
+}
+
+.sec-back-3 {
+    background-image: url('../images/shape-3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* ---------- Lenora back section css ---------- */
+
+.lenora-back {
+    background: url('../images/img.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.layer {
+    background-color: #ffc400b2;
+}
+
+.lenora-txt {
+    color: #333333;
+    font-size: 42px;
+    padding-top: 25%;
+}
+
+.lenora-name {
+    color: #333333;
+    font-size: 70px;
+    font-family: 'Grand Hotel, cursive';
+    padding-bottom: 20%;
+}
+
+
+/* ------------- Subscriber section css ------------ */
+
+.subs-back {
+    background-image: url('../images/subs.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.subs-heading {
+    color: #333333;
+    font-size: 80px;
+    font-family: 'Grand Hotel, cursive';
+    padding-top: 15%;
+}
+
+.sub-para {
+    color: #333333;
+    font-size: 25px;
+}
+
+.btn-outline-secondary {
+    color: #333333;
+    background-color: #FFC200;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.233) 0px 25px 50px -12px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.5em + 0.75rem + 2px);
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.233) 0px 25px 50px -12px;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/* ------------- Footer css----------------- */
+
+.ftr-bg {
+    background-color: #2F2F2F;
+}
+
+.ftr-1 {
+    text-align: left;
+}
+
+.ftr-1-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ftr-1-para {
+    color: white;
+    font-size: 21px;
+}
+
+ul.ftr-ul {
+    display: block;
+    font-size: 21px;
+}
+
+.bottom {
+    padding-bottom: 39%;
+}
+
+.input-group {
+    width: 95%;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #2f2f2f;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFC200;
+}
+
+
+/*------------------Media query starts here-------------------*/
+
+@media (max-width: 1440px) {
+    .bnr-txt {
+        margin-top: 40%;
+    }
+    .best {
+        padding-top: 0;
+    }
+    .padding-b {
+        padding-bottom: 16%;
+    }
+    .bottom {
+        padding-bottom: 24%;
+    }
+    .stat-heading {
+        padding-top: 20%;
+    }
+    .pbt {
+        padding-top: 23%;
+        padding-bottom: 23%;
+    }
+    .maragin-t {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .bnr-heading {
+        font-size: 80px;
+    }
+    .bnr-txt {
+        margin-top: 30%;
+    }
+    .bnr-para {
+        font-size: 20px;
+    }
+    .btn-order {
+        font-size: 16px;
+    }
+    .back-img {
+        height: 791px;
+    }
+    .padding-b {
+        padding-bottom: 5%;
+    }
+    .bottom {
+        padding-bottom: 6%;
+    }
+    .stat-heading {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .back-img {
+        height: 675px;
+    }
+    .padding-b {
+        padding-bottom: 0%;
+    }
+    .lenora-name {
+        padding-bottom: 10%;
+    }
+    .lenora-txt {
+        font-size: 30px;
+        padding-top: 15%;
+    }
+    .subs-heading {
+        padding-top: 10%;
+    }
+    .bottom {
+        padding-bottom: 10%;
+    }
+    .maragin-t {
+        padding-top: 6%;
+    }
+    .stat-heading {
+        padding-top: 5%;
+    }
+    .pbt {
+        padding-top: 13%;
+    }
+}
+
+@media (max-width: 991px) {
+    #navbarCollapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        text-align: center;
+        background: #2f2f2f;
+        padding: 15px;
+        min-height: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.2s ease-in-out;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        background: #2f2f2f;
+    }
+    .show#navbarCollapse {
+        visibility: visible;
+        min-height: 250px;
+        opacity: 1;
+        box-shadow: 2px 6px 17px #88888869;
+    }
+    div#navbarCollapse {
+        display: flex;
+        justify-content: center;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        box-shadow: 2px 6px 9px #8888883d;
+    }
+    .bnr-heading {
+        font-size: 60px;
+    }
+    .bnr-para {
+        font-size: 16px;
+    }
+    .bnr-txt {
+        margin-top: 42%;
+    }
+    .best {
+        font-size: 60px;
+    }
+    .best-para {
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    .padding-t {
+        padding-top: 35px;
+    }
+    .sec-title {
+        font-size: 25px;
+    }
+    .img-sec {
+        width: 100%;
+    }
+    .oriental-heading {
+        font-size: 60px;
+        padding-top: 6px;
+    }
+    .oriental-para {
+        color: #ffffff;
+        font-size: 16px;
+    }
+    .stat-heading {
+        font-size: 60px;
+        padding-top: 10%;
+    }
+    .stat-para {
+        font-size: 16px;
+    }
+    .circle {
+        width: 160px;
+        height: 160px;
+    }
+    .num {
+        font-size: 25px;
+        padding-top: 26%;
+    }
+    .circle-txt {
+        font-size: 20px;
+    }
+    .padding-b {
+        padding-bottom: 10%;
+    }
+    .lenora-txt {
+        font-size: 16px;
+    }
+    .lenora-name {
+        font-size: 60px;
+    }
+    .subs-heading {
+        font-size: 60px;
+    }
+    .sub-para {
+        font-size: 16px;
+    }
+    .btn-outline-secondary {
+        font-size: 16px;
+    }
+    .ftr-1-heading {
+        font-size: 20px;
+    }
+    .ftr-1-para {
+        font-size: 16px;
+    }
+    .pbt {
+        padding-top: 24%;
+    }
+}
+
+@media (max-width: 767px) {
+    .bnr-txt {
+        margin-top: 23%;
+        text-align: center;
+    }
+    .back-img {
+        height: 500px;
+        background-size: cover;
+    }
+    .best {
+        padding-top: 12%;
+    }
+    .img-sec {
+        width: 65%;
+        margin: 0 auto;
+        display: block;
+    }
+    .oriental-heading {
+        text-align: center;
+    }
+    .oriental-para {
+        text-align: center;
+    }
+    .btn-order {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .maragin-t {
+        padding-top: 0;
+    }
+    .sec-back-2 {
+        background-size: cover;
+    }
+    .sec-back {
+        background-size: unset;
+    }
+    .circle {
+        width: 160px;
+        height: 160px;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .pdd-b {
+        padding-bottom: 10%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-weight: 100;
+        font-size: 18px;
+    }
+    .pbt {
+        padding-top: 0%;
+    }
+}
+
+@media (max-width: 480px) {
+    .bnr-txt {
+        margin-top: 45%;
+        text-align: center;
+    }
+    .form-control {
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 4px 15px;
+    }
+    .btn {
+        padding: 2px 10px;
+    }
+    .btn-outline-secondary {
+        font-size: 12px;
+    }
+    .bnr-heading {
+        font-size: 40px;
+    }
+    .bnr-para {
+        font-size: 14px;
+    }
+    .btn-order {
+        font-size: 12px;
+    }
+    .best {
+        font-size: 40px;
+    }
+    .best-para {
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    .oriental-heading {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .stat-heading {
+        font-size: 40px;
+    }
+    .stat-para {
+        font-size: 14px;
+    }
+    .oriental-para {
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .lenora-txt {
+        font-size: 14px;
+    }
+    .lenora-name {
+        font-size: 40px;
+    }
+    .subs-heading {
+        font-size: 40px;
+    }
+    .sub-para {
+        font-size: 14px;
+    }
+    .ftr-1-heading {
+        font-size: 18px;
+    }
+    .ftr-1-para {
+        font-size: 14px;
+    }
+    ul.ftr-ul {
+        display: block;
+        font-size: 14px;
+    }
+    .maragin-t {
+        padding-top: 25%;
+    }
+    .pdd-b {
+        padding-bottom: 28%;
+    }
+}
+
+@media (max-width: 375px) {
+    .pbt {
+        padding-bottom: 50%;
+    }
+    .maragin-t {
+        padding-top: 15%;
+    }
+}
